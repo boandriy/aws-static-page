@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Diary</title>
+
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body class="page-home">
+  <header class="site-header">
+    <h1 class="title">Welcome to Your diary!</h1>
+  </header>
+  <section class="form-wrap">
+    <h1>Sign In</h1>
+    <form id="signinForm">
+      <input type="email" id="emailInputSignin" placeholder="Email" required>
+      <input type="password" id="passwordInputSignin" placeholder="Password" pattern=".*" required>
+
+      <input type="submit" value="Sign in">
+    </form>
+  </section>
+
+  <div class="main-container">
+<!--      <a class="home-button" href="signin.html">Sign in</a>-->
+      <a class="register-button" href="register.html">Register ...</a>
+
+  </div>
+  <div class="main-container-footnotes">
+    <p>
+      Andrii Borovets - CS@UCU Cloud computing final assignment
+    </p>
+    <p>
+      Diary is a simple, multi-user AWS serverless web application based on AWS tutorial files(no practical functionality).
+    </p>
+  </div>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/vendor/jquery-3.1.0.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+  <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/cognito-auth.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
